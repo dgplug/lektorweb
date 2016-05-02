@@ -1,5 +1,5 @@
 title: Services
-----
+---
 body:
 
 ## Few other services
@@ -8,7 +8,7 @@ body:
 ### IRC stats
 
 Though we do not keep a public log of the IRC channel, but we maintain a
-statistics page for the channel. You can find it `here <http://dgplug.org/ircstat/>`_.
+statistics page for the channel. You can find it [here](http://dgplug.org/ircstat/).
 
 ### Planet
 
@@ -17,5 +17,5 @@ to the planet, please contact any of the admins in the IRC channel.
 
 ### rfc.dgplug.org
 
-We also have a `mirror of RFC texts  <http://rfc.dgplug.org>`_.
+We also have a [mirror of RFC texts](http://rfc.dgplug.org).
 
