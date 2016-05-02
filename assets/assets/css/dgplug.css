@@ -1,0 +1,332 @@
+/*!
+ * Vitality v1.1 (http://themes.startbootstrap.com/vitality-v1.1)
+ * Copyright 2014 Start Bootstrap Themes.
+ * Licensed at WrapBootstrap, visit WrapBootstrap to purchase a usage license for this theme (https://wrapbootstrap.com/)
+ */
+
+html,
+body {
+    height: 100%;
+}
+
+body>.container {
+  margin-top: 40px;
+  min-height: 475px;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.content-row {
+    margin-top: 30px;
+}
+
+section {
+    padding: 100px 0;
+}
+
+section.bg-gray {
+    background-color: #f5f5f5;
+}
+
+@media(max-width:767px) {
+    section {
+        padding: 75px 0;
+    }
+}
+
+.owl-theme .owl-controls .owl-page span {
+    background: rgba(34,34,34,.5);
+}
+
+body {
+  font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #2c3e50;
+  background-color: #ffffff;
+  font-weight: 300;
+}
+
+hr.left {
+    margin: 15px auto 15px 0;
+}
+
+hr.right {
+    margin: 15px 0 15px auto;
+}
+
+hr.colored {
+    border-color: #ef4035;
+}
+
+@media(min-width:768px) {
+    hr {
+        margin: 20px auto;
+        max-width: 200px;
+    }
+
+    hr.left {
+        margin: 20px auto 20px 0;
+    }
+
+    hr.right {
+        margin: 20px 0 20px auto;
+    }
+}
+
+.text-primary {
+    color: #ef4035;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    border-radius: 0;
+    color: #ef4035;
+    background-color: #fff;
+}
+
+.navbar-default {
+    background-color: #ef4035;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: rgba(255,255,255,.5);
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: rgba(255,255,255,.5);
+}
+
+.navbar-inverse {
+    background-color: #222;
+}
+
+.navbar-default,
+.navbar-inverse {
+    border: 0;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+.navbar-default .navbar-brand,
+.navbar-inverse .navbar-brand {
+    padding: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    opacity: 1;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-inverse .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-inverse .navbar-brand:focus {
+    opacity: 1;
+}
+
+.navbar-default .navbar-nav li a,
+.navbar-inverse .navbar-nav li a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.navbar-inverse .navbar-nav li a:hover {
+    color: rgba(255,255,255,.5);
+}
+
+@media(min-width:768px) {
+    .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:hover,
+    .navbar-default .navbar-nav>.active>a:focus,
+    .navbar-inverse .navbar-nav>.active>a,
+    .navbar-inverse .navbar-nav>.active>a:hover,
+    .navbar-inverse .navbar-nav>.active>a:focus {
+        border-radius: 5px;
+    }
+
+    .navbar-fixed-top.navbar-expanded {
+        padding: 30px 0;
+    }
+
+    .navbar-fixed-top {
+        padding: 15px 0;
+        -webkit-transition: padding .5s;
+        -moz-transition: padding .5s;
+        transition: padding .5s;
+    }
+
+    .navbar-fixed-top .navbar-brand:hover {
+        opacity: .5;
+    }
+
+    .navbar-default.navbar-expanded,
+    .navbar-inverse.navbar-expanded {
+        border: 0;
+        background: 0 0;
+    }
+}
+
+.navbar a:focus {
+    outline: 0;
+}
+
+.navbar .navbar-nav li a:focus {
+    outline: 0;
+}
+
+header {
+    display: block;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding: 100px 0;
+    min-height: 100%;
+    background: no-repeat center center;
+    background-attachment: scroll;
+    background-color: #222;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+header .intro-content {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+header img {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+header .scroll-down {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+header .scroll-down .btn:hover {
+    border-color: rgba(255,255,255,.5);
+    outline: 0;
+    color: rgba(255,255,255,.5);
+}
+
+@media(min-width:768px) {
+    header {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        background-attachment: scroll;
+    }
+
+    header .intro-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        color: #fff;
+        -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+
+    header img {
+        max-height: 300px;
+        max-width: 300px;
+    }
+}
+
+@media(min-width:1025px) {
+    header {
+        background-attachment: fixed;
+    }
+}
+
+header.video .overlay {
+    z-index: 998;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: #000;
+}
+
+header.video .intro-content {
+    z-index: 999;
+}
+
+header.video .scroll-down {
+    z-index: 999;
+}
+
+@media(min-width:768px) {
+    header.video .overlay {
+        opacity: .5;
+    }
+}
+
+aside.cta-quote {
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: no-repeat center center scroll;
+    background-color: #222;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+aside.cta-quote span.quote {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+@media(min-width:768px) {
+    aside.cta-quote {
+        padding: 150px 0;
+        background-attachment: scroll;
+    }
+
+    aside.cta-quote span.quote {
+        font-size: 36px;
+        line-height: 38px;
+    }
+}
+
+@media(min-width:992px) {
+    aside.cta-quote {
+        padding: 300px 0;
+    }
+
+    aside.cta-quote span.quote {
+        font-size: 40px;
+        line-height: 42px;
+    }
+}
+
+@media(min-width:1025px) {
+    aside.cta-quote {
+        background-attachment: fixed;
+    }
+}
