@@ -1,2 +1,5 @@
 [project]
 name = dgplug
+
+[packages]
+lektor-disqus-comments = 0.2
