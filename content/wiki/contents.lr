@@ -11,5 +11,5 @@ body:
 ## How to edit the wiki?
 
 This wiki is written in Markdown format using [Lektor](https://getlektor.com) project.
-Feel free to send in PR to the [repo](). If you have commit access there, you can go ahead
+Feel free to send in PR to the [repo](https://github.com/dgplug/lektorweb). If you have commit access there, you can go ahead
 and update the site.
