@@ -2,7 +2,14 @@ title: dgplug Wiki
 ---
 body:
 
+
 ## Links to other pages
 
 * [Summer Training16](/summertraining16/)
 * [Services](/wiki/services/)
+
+## How to edit the wiki?
+
+This wiki is written in Markdown format using [Lektor](https://getlektor.com) project.
+Feel free to send in PR to the [repo](). If you have commit access there, you can go ahead
+and update the site.
