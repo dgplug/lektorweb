@@ -11,12 +11,20 @@ Online summer training from [Linux Users Group of Durgapur](http://dgplug.org). 
 
 Entry Free!
 
-This is the 10th year of the training. Our goal is to bring in more upstream
-contributors to various FOSS projects. Through this training we show the path
-of becoming an upstream contributor. The training lasts for almost 3 months,
-sessions are generally at 19:00 IST onwards. This year there will be live view
-of terminals where participants will be able to see what the trainer is doing
-on the computer.
+This is the 10th year of the training. Our goal is to bring in more
+upstream contributors to various Free software projects. Through this
+training we show the path of becoming an upstream contributor. The
+training lasts for almost 3 months, sessions are generally at 19:00
+IST onwards. This year there will be live view of terminals where
+participants will be able to see what the trainer is doing on the
+computer.
+
+In 2017 we are focusing more on the history and the political aspects
+of the Free Software movement. Over the years we found the new
+contributors think this is all about software, and *Freedom* has
+nothing to do with GNU/Linux and other Free software.  This year we
+are trying to have more speakers to talk about the hackers' ethics,
+and the history behind many of the appications we use daily.
 
 [Here](http://opensource.com/life/14/6/enroll-now-free-online-open-source-programming-classes) is one report which was published in 2014, and [one](http://opensource.com/life/13/6/learning-program-open-source-way) in 2013.
 
@@ -33,7 +41,7 @@ on the computer.
 *   Get acquainted with Free Software technologies
 *   Gaining technical knowledge
 *   Real-world project experience
-
+*   Spreading the hacker ethics
 
 
 ## Speciality[¶](#speciality "Permalink to this headline")
@@ -54,6 +62,7 @@ on the computer.
 *   Documentation
 *   Basic system administration
 *   History of Free Software movement
+*   Discussing the political history of Free Software movement
 *   Source code management systems (Mercurial & Git)
 *   Using gpg in daily life
 *   Using [Ansible](https://ansible.com) to manage your system.
