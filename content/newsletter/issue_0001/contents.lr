@@ -1,0 +1,53 @@
+title: #dgplug Newsletter - FEB 2018
+---
+body:
+
+![dgplug logo][img:logo]
+
+## Information aggregation from and around dgplug
+
+*Here it is*, the first issue of the \#dgplug newsletter.
+
+### What is dgplug?
+
+dgplug is an acronym for the [Linux Users' Group of Durgapur][link:dgplug]. The group is however not meant to be exclusively for people living in Durgapur. Instead it is an open community that welcomes everyone that shares our interests in free and open source software, education and community.
+
+If you don't know dgplug, you can find more detailed information about dgplug while reading the blogs on the [planet][link:planet] or the [students' planet][link:students_planet]. For regular updates, make sure to subscribe to the mailing list and/or visit us in the IRC channel **\#dgplug** on the [freenode][link:freenode] network.
+
+### What is this letter?
+
+A lot is going on at dgplug and in the FOSS world. This newsletter is meant to aggregate the interesting activities and events that are happening for the interested (but busy) reader. This is not only exciting for dgplug members - it's quite possible that you recognize some names when reading the contributors list of your next Firefox plugin, JavaScript package or Python update.
+
+This newsletter will summarize the past two weeks, briefly informing you about the latest dgplug blog posts, git commits, IRC channel activities and random (but interesting) FOSS and tech news. You can expect to get a lot of interesting information all in one place. And not only that, if you feel we missed some really interesting link, you can share with us and we will try to include it in our next newsletter.
+
+
+## Recent activities of \#dgplug members
+
+- [Shakti Kannan - Travel - Udupi, Karnataka](http://www.shakthimaan.com/posts/2018/02/14/udupi/news.html): Photo series of Shakti Kannan's travel to Udupi in Karnataka.
+- [Anwesha Das - The danger of modern medical devices : Keynote by Karen Sandler at LCA 2018](http://anweshadas.in/the-danger-of-modern-medical-devices/): A summary of two remarkable talks from Karen Sandler, talking about the urgent need to have medical devices run by open source software. As an affected, Karen Sandler has terrifying stories to tell.
+- [Ashwani Gupta - How to use Flask-SQLAlchemy with Hasura PostgreSQL service](https://ashwanigblog.wordpress.com/2018/02/15/how-to-use-flask-sqlalchemy-with-hasura-postgresql-service/): Learn how to deploy your Flask apps as microservices using Hasura and PostgreSQL with SQLAlchemy.
+- [PradhvanBisht - I am alive !](https://medium.com/@Pradhvan/i-am-alive-40317770655a?source=rss-db9d0854d49e------2): Pradhvan's blogging comeback after some quiet weeks, giving a status update on his current projects.
+- [Vipul Gupta - Django Party #Investopad_HKV](https://mixstersite.wordpress.com/2018/02/10/django-party-investopad_hkv_pydladies/): Vipul Gupta sharing his experience attending the Django Party that has taken place at the IIT Delhi on 3rd of February 2018.
+- [Abstract Learner - Multi-tasking is a myth!](http://phi2infinity.blogspot.com/2018/02/multi-tasking-is-myth.html): Starting with Scott Hanselman's *Scale Yourself*, Abstract Learner follows up on the question whether something like multi-tasking is possible at all.
+- [Abstract Learner - Master the what?](http://phi2infinity.blogspot.com/2018/02/master-what.html): Abstract Learner participated the *IBM Master the Mainframe*, a multiple-step hacking competition, sharing his experiences.
+- [Vivek Anand - Moving my blog from wordpress to AWS](https://vivekanandxyz.wordpress.com/2018/02/08/moving-my-blog-from-wordpress-to-aws/) Vivek moved his blog. Why and how? Definitely worth a blog post.
+
+
+## Further readings
+
+- [https://opensource.com/article/18/2/coining-term-open-source-software](https://opensource.com/article/18/2/coining-term-open-source-software): A major part of our lives is all about open source software. Here's a lesson in history about how this term came into existence in the first place.
+- [https://sausheong.github.io/posts/space-invaders-with-go/](https://sausheong.github.io/posts/space-invaders-with-go/): Nostalgic go-programmers, you are not alone. Here's a very comprehensive blog about building the legendary arcade video game space invaders in golang.
+- [https://www.eff.org/press/releases/catalog-missing-devices-illustrates-gadgets-could-and-should-exist](https://www.eff.org/press/releases/catalog-missing-devices-illustrates-gadgets-could-and-should-exist): Arguably the most ridiculous laws originate from DRMs. Here's a catalog of things that should exist but don't due to copyright laws.
+- [https://lcamtuf.blogspot.com/2018/02/on-leadership.html](https://lcamtuf.blogspot.com/2018/02/on-leadership.html): Oftentimes, tech people find themselves in a leader role, being responsible for a couple of people or even multiple teams. Not everyone is prepared for this task. Here's an invaluable post full of experience on leadership from the techie point of view.
+
+
+## Did we miss something?
+
+Since this project is just about to start, we may have overseen content that you would like to have included. We will work on constantly improving this letter and review external sources. If you think there is something we've been missing, feel free to add your ideas for the [next issue][link:next_issue].
+
+[img:logo]: /assets/img/main-dgp.png
+[link:dgplug]: https://dgplug.org
+[link:planet]: http://planet.dgplug.org
+[link:students_planet]: http://students.planet.dgplug.org
+[link:freenode]: https://freenode.net
+[link:next_issue]: https://github.com/dgplug/newsletter/issues/5
