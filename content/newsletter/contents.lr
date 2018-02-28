@@ -2,4 +2,19 @@ title: #dgplug Newsletter
 ---
 body:
 
+This newsletter reports activities in the #dgplug channel and of its members and random interesting news on our favourite subjects
+- Linux
+- Free Software
+- Privacy and Security
+- Licensing, Blogging and many more
+
+It is supposed to be released biweekly; sources can be found on [github][link:github_newsletter].
+
+We will work on constantly improving this letter and review external sources. If you think we should include a specific topic / blogpost / article that should be shared, please submit a comment to the corresponding [issue][link:github_issues] on github.
+
+## Issues
+
 [issue #1](issue_0001/)
+
+[link:github_newsletter]: https://github.com/dgplug/newsletter/
+[link:github_issues]: https://github.com/dgplug/newsletter/issues
