@@ -1,0 +1,58 @@
+title: #dgplug Newsletter - 19 MAR 2018
+---
+body:
+
+![dgplug logo][img:logo]
+
+## Open Source Contribution - A Case Report 
+
+The cool thing about open source software is its openness. Not just that everyone can examine the code, and reproduce it, but that everyone can participate and contribute to it’s growth; this is the biggest strength of FOSS and also the principle that many projects depend on.
+
+Who knows, you might find yourself in a situation where you have the possibility to contribute sooner than you think.
+
+Here’s a recent example. Diceware is a convenient tool to create strong random passwords. Bhavin found an uncaught exception,  and decided to commit a fix.
+
+To write the code and create a pull request is however just the start. Read [Bhavin's blog post about this pull request](https://geeksocket.in/blog/contributing-diceware-tool/) for all details about the exciting progress from discovering a bug to get their own code merged into the project, making it a little better.
+
+And all of this, would not have been possible, had the code not been open for Bhavin to comb through and suggest improvements and fixes.
+
+It's encouraging to see how core developers take care, make suggestions and guide contributors to deliver a professional fix. The things you learn and experience during a process like this, are priceless.
+
+A post worth for everyone who’re interested in how open source really works. 
+
+## Recent activities of \#dgplug members
+
+- [Anwesha Das - Setting up my own server](https://anweshadas.in/setting-up-my-own-server/): How to gain control over your services? Anwesha is now hosting her blog on her own server. This first post describes how she set this up using CentOS 7, nginx and Ghost. 
+- [Kushal Das - Running Tor relay inside a docker container](https://kushaldas.in/posts/running-tor-relay-inside-a-docker-container.html): The Tor network depends on the community, hosting relays. This makes the network faster, safer, more robust and secure. Kushal describes how you can run a Tor relay even if the latest Tor release is not available on your distro, using containers. 
+- [Kushal Das - Tor Mumbai meetup](https://kushaldas.in/posts/tor-mumbai-meetup.html): Kushal reporting on the Tor Mumbai meetup that took plase in Mumbai on January 20th 2018. Core developers of different fields collaborating for more secure communication as a major goal.
+- [Sanyam Khurana - MozAMU: Mozilla Addons Development at AMU](http://SanyamKhurana.com/blog/mozilla-addons-dev-amu.html): Sanyam shares his impressions on the MozAMU, a Mozilla Addon Development meetup that took place in Aligarh on February 24th 2018. The post also contains a link to the slides of his talk "Why you should contribute to Open Source?".
+- [fardroid23 - The Open Organization](https://farhaanbukhsh.wordpress.com/2018/02/28/the-open-organization/): Farhaan was impressed reading "The Open Organization", written by the Red Hat CEO Jim Whitehurst. Read on and find out why.
+- [Mario Jason Braganza - Booting CentOS into Graphical or Command Line Mode by default](https://janusworx.com/booting-centos-into-graphical-command-line-mode/): Jason has begun tinkering with Linux distros, in an effort to find something stable for his needs. Here are his first experiences with systemd and how to switch between starting at the command line or in his Gnome desktop, by changing the default target.
+- [Shashank Shekhar - Setting up RiotJS project with Webpack](https://medium.com/@shashank7200/setting-up-riotjs-project-with-webpack-854df3f3f093?source=rss-add6503df58c------2): Into Javascript? Shashank introduces RiotJS, a library for reusable web components, and guides us through the obligatory /Hello World/ project.
+- [Vipul Gupta - Customise Boot Logo [Xubuntu:Discover]](https://mixstersite.wordpress.com/2018/03/01/customise-boot-logo-xubuntu-discover/): Shashank explains how to customize the start up screen with an own image or logo, using his Xubuntu distribution as example.
+
+
+## Further reading
+
+- [Schubisu - https://jacobian.org/writing/python-environment-2018/](https://jacobian.org/writing/python-environment-2018/): When developing in Python, virtual environments are a must. However, the proper set-up can still be a pain depending on the packages you need. This article gives an example for a more complex but very comprehensive set-up.
+- [bhavin192 - https://blog.cloudflare.com/using-go-as-a-scripting-language-in-linux/](https://blog.cloudflare.com/using-go-as-a-scripting-language-in-linux/): Go’s getting more and more popular by the day, being relatively easy to learn and allowing rapid development. This post describes how use to Go as a scripting language by making .go files executable, without the need of compiling/installing the code first.  
+- [kushaldas - https://www.wired.com/story/chrome-yubikey-phishing-webusb/](https://www.wired.com/story/chrome-yubikey-phishing-webusb/): Yubikeys are hardware authentication devices that are advertised to not be vulnerable to phishing attacks. The article describes how a Google Chrome feature can be used to nevertheless steal user credentials, as presented on the Offensive Con security conference in Berlin.
+- [kushaldas - https://githubengineering.com/ddos-incident-report/](https://githubengineering.com/ddos-incident-report/): In February, github was unavailable for a couple of minutes due to a huge distributed denial-of-service (DDoS) attack. Read about the background and the actions they took to prepare beforehand, as well as what they did in the aftermath.
+- [kushaldas - https://rfc.dgplug.org/](https://rfc.dgplug.org/): RFCs, the Requests for Comments form the guidelines provided by the Internet Engineering Task Force, that our internet is built on. Did you know dgplug hosts a copy?
+- [jasonbraganza - https://www.artofmanliness.com/2018/02/26/how-to-read-more-books/](https://www.artofmanliness.com/2018/02/26/how-to-read-more-books/): Reading is essential, as by far the biggest part of information we have access to is available only written. If you struggle with reading and your to-read pile is growing alarmingly fast, this article might be helpful for you.
+- [jasonbraganza - https://www.artofmanliness.com/2018/03/05/need-reset-day/](https://www.artofmanliness.com/2018/03/05/need-reset-day/): We're people staring at screens, often having stressful jobs that make us work late or at weekends. Take care of your health, physically and mentally, consider taking a reset day once in a while.
+- [kushaldas - https://dev.to/ashleymcnamara/nevertheless-ashley-mcnamara-coded--23ag](https://dev.to/ashleymcnamara/nevertheless-ashley-mcnamara-coded--23ag): Today, Ashley McNamara is software developer advocate at Microsoft. Read her inspiring story on how she started learning to code as a 30+ photographer, discovering the open source community.
+- [kushaldas - https://blog.torproject.org/new-stable-tor-releases-security-fixes-and-dos-prevention-03210-03110-02915](https://blog.torproject.org/new-stable-tor-releases-security-fixes-and-dos-prevention-03210-03110-02915): Even several stable releases have been made by the torproject, fixing multiple security issues. If you're already running a tor relay, check the changelog, there's a good chance an update is highly recommended.
+- [kushaldas - https://community.letsencrypt.org/t/acme-v2-and-wildcard-certificate-support-is-live/55579](https://community.letsencrypt.org/t/acme-v2-and-wildcard-certificate-support-is-live/55579): The Automated Certificate Management Environment (ACME) has launched version 2, which is good news. It facilitates HTTPS adoption by making it easier for web pages to get and manage certificates. 
+
+## Did we miss something?
+
+Since this project is still in its infancy, we may have overlooked content that you would like to have included. We will work on constantly improving this letter and review external sources. If you think there is something we've missed, feel free to add your ideas for the [next issue][link:next_issue].
+
+
+[img:logo]: /assets/img/main-dgp.png
+[link:dgplug]: https://dgplug.org
+[link:planet]: http://planet.dgplug.org
+[link:students_planet]: http://students.planet.dgplug.org
+[link:freenode]: https://freenode.net
+[link:next_issue]: https://github.com/dgplug/newsletter/issues/6
