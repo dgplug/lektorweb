@@ -1,3 +1,5 @@
+_model: full_navigation
+---
 title: #dgplug Newsletter
 ---
 body:
@@ -13,8 +15,6 @@ It is supposed to be released biweekly; sources can be found on [github][link:gi
 We will work on constantly improving this letter and review external sources. If you think we should include a specific topic / blogpost / article that should be shared, please submit a comment to the corresponding [issue][link:github_issues] on github.
 
 ## Issues
-
-[issue #1](issue_0001/)
 
 [link:github_newsletter]: https://github.com/dgplug/newsletter/
 [link:github_issues]: https://github.com/dgplug/newsletter/issues
