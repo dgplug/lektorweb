@@ -29,7 +29,7 @@ A post worth for everyone who’re interested in how open source really works.
 - [fardroid23 - The Open Organization](https://farhaanbukhsh.wordpress.com/2018/02/28/the-open-organization/): Farhaan was impressed reading "The Open Organization", written by the Red Hat CEO Jim Whitehurst. Read on and find out why.
 - [Mario Jason Braganza - Booting CentOS into Graphical or Command Line Mode by default](https://janusworx.com/booting-centos-into-graphical-command-line-mode/): Jason has begun tinkering with Linux distros, in an effort to find something stable for his needs. Here are his first experiences with systemd and how to switch between starting at the command line or in his Gnome desktop, by changing the default target.
 - [Shashank Shekhar - Setting up RiotJS project with Webpack](https://medium.com/@shashank7200/setting-up-riotjs-project-with-webpack-854df3f3f093?source=rss-add6503df58c------2): Into Javascript? Shashank introduces RiotJS, a library for reusable web components, and guides us through the obligatory /Hello World/ project.
-- [Vipul Gupta - Customise Boot Logo [Xubuntu:Discover]](https://mixstersite.wordpress.com/2018/03/01/customise-boot-logo-xubuntu-discover/): Shashank explains how to customize the start up screen with an own image or logo, using his Xubuntu distribution as example.
+- [Vipul Gupta - Customise Boot Logo [Xubuntu:Discover]](https://mixstersite.wordpress.com/2018/03/01/customise-boot-logo-xubuntu-discover/): Vipul explains how to customize the start up screen with an own image or logo, using his Xubuntu distribution as example.
 
 
 ## Further reading
