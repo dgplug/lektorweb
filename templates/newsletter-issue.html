@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }} | News {% endblock %}
+{% block body %}
+<h1>{{ this.title }}</h1>
+<p class="meta" >
+    by {{ this.author }}
+    of {{ this.pub_date|dateformat('full') }}
+    <div class="body">
+        {{ this.body }}
+    </div>
+</p>
+{% endblock %}
