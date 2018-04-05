@@ -1,0 +1,52 @@
+title: dgplug Newsletter #3
+---
+pub_date: 2018-04-05
+---
+author: Robin Schubert
+---
+body:
+
+![dgplug logo][img:logo]
+
+The Social Media Dilemma
+-----------------------------------------
+
+Social media take a big part in most of our lives. It combines almost every good thing the internet could possibly provide us with; information, social interaction, entertainment. However, the costs are high, as we transform ourselves into customers without any secrets. We not only share our innermost feelings and opinions with close friends, but with a company that sells these secrets to the highest bidder.
+
+We create profiles of ourselves that are far more detailed than what is visible to us, profiles that leave third parties with more than enough information to find and exploit our vulnerabilities.
+
+People are shocked if personal data from social media end up in hands of dubious companies, but everyone should be aware that this is nothing but the business model of social media companies.
+
+Now, is it possible to use social media in a responsible way? Or is cutting all bonds and abandon the advantages the more reasonable approach? An open source crowd-funded ad-free social network would be an attractive alternative. This is why we almost want this [April Fool](https://www.fsf.org/blogs/community/free-software-foundation-announces-crowdfunding-campaign-to-buy-facebook) to become reality.
+
+
+Recent activities of \#dgplug members
+----------------------------------------------
+
+- [Shashank Kumar - Recovering commit after git reset --hard](https://blog.shanky.xyz/recovering-commit-after-git-reset--hard.html): Git is a life saver, no doubt. But no one who uses a versioning system like git never messed up some commits. Often the easiest way is to do the hard reset to untangle the mess, but what if you notice you've lost some important work when you thought it is already too late?
+- [Himanshu Awasthi - Experience of  Pandas Documentation Sprint](https://kanpurpython.wordpress.com/2018/03/15/experience-of-pandas-documentation-sprint/): Pandas is a powerful and convenient python package built on numpy, that makes data wrangling in Python fun. Himanshu started working on this great library, beginning with a Pandas documentation sprint.
+- [Kushal Das - Using Python to access Onion network over SOCKS proxy](https://kushaldas.in/posts/using-python-to-access-onion-network-over-socks-proxy.html): Did you know you can use the power of Tor in your Python code? Kushal demonstrates how to use Tor as proxy doing arbitrary web requests with Python and SOCKS.
+- [Kushal Das - How to delete your Facebook account?](https://kushaldas.in/posts/how-to-delete-your-facebook-account.html): There is a way to make sure Facebook is not abusing your personal data; just delete your account. Many people are afraid of this, but it's not dangerous and will definitely not kill you. You might however experience a physical presence of freedom afterwards.
+
+Further reading
+-------------------
+
+- [jasonbraganza - http://links.iwillteachyoutoberich.com/a/258/preview/6236692/742102865/6aa2f5ca9c2175ff2018a85e6a05113db98d6dcb](http://links.iwillteachyoutoberich.com/a/258/preview/6236692/742102865/6aa2f5ca9c2175ff2018a85e6a05113db98d6dcb?message_id=Ijc0NTZmZGMwLTA5YzMtMDEzNi04MzIwLTE0MDJlYzZmMWMyY0Bpd2lsbHRlYWNoeW91dG9iZXJpY2guY29tIg==): Sometimes it's hard to learn how to master a discipline by reading about it, or listening to explanations. Sometimes the most informative experience is to just watch masters at work.
+- [kushaldas - https://mtlynch.io/why-i-quit-google/](https://mtlynch.io/why-i-quit-google/): Michael Lynch has quit the job that many people dream of. This post describes, how in a gigantic company like Google, commitment and good work is not recognized or appreciated, while a dog-eat-dog mindset is rewarded.
+- [kushaldas - http://www.repubblica.it/esteri/2018/03/19/news/snowden_how_the_deep_state_shapes_presidents_-191619170/?refresh_ce](http://www.repubblica.it/esteri/2018/03/19/news/snowden_how_the_deep_state_shapes_presidents_-191619170/?refresh_ce): A presidency usually lasts for a few years, new politicians come, others go. However, there are institutions that surpass many politicians and presidencies, that are powerful enough to take influence on politics and presidents. Is a president even capable to oppose that Deep State?
+- [jasonbraganza - https://www.fs.blog/2013/09/the-art-of-thinking-clearly/](https://www.fs.blog/2013/09/the-art-of-thinking-clearly/): Rolf Dobelli's *The Art of Thinking Clearly* addresses errors in our thinking and decision making. This is a brief summary of the topics this book contains.
+- [jasonbraganza - http://calnewport.com/blog/2018/03/25/beyond-deletefacebook-more-thoughts-on-embracing-the-social-internet-over-social-media/](http://calnewport.com/blog/2018/03/25/beyond-deletefacebook-more-thoughts-on-embracing-the-social-internet-over-social-media/): Consume social media more consciously, don't turn yourself into the gadget of of the big companies. This is an introduction to the Slow Social Media philosophy by Cal Newport.
+
+
+Did we miss something?
+---------------------------
+
+Since this project is still in its infancy, we may have overlooked content that you would like to have included. We will work on constantly improving this letter and review external sources. If you think there is something we've missed, feel free to add your ideas for the [next issue][link:next_issue].
+
+
+[img:logo]: /assets/img/main-dgp.png
+[link:dgplug]: https://dgplug.org
+[link:planet]: http://planet.dgplug.org
+[link:students_planet]: http://students.planet.dgplug.org
+[link:freenode]: https://freenode.net
+[link:next_issue]: https://github.com/dgplug/newsletter/issues/9
