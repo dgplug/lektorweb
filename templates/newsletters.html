@@ -7,7 +7,7 @@
     {{ this.body }}
     {% for post in this.pagination.items %}
     <li>
-        <a href="{{ post|url }}" >{{ post.title }}</a> - {{ post.pub_date|dateformat }}
+        <a href="{{ post|url }}" >{{ post.title }}</a>
     </li>
     {% endfor %}
 </ul>
