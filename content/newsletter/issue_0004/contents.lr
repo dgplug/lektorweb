@@ -1,0 +1,59 @@
+title: dgplug Newsletter #4
+---
+pub_date: 2018-06-10
+---
+author: Robin Schubert
+---
+body:
+
+![dgplug logo][img:logo]
+
+Inquisitive phone books
+-----------------------------------------
+
+An important part in browsing the web is to resolve human readable domain names into server IP addresses, so our requests reach the correct destinations. The Domain Name System (DNS) is like a phone book for the internet, resolvers look up the domain names and return the corresponding addresses.
+There are two major aspects to consider:
+
+1. Most Internet Service Providers (ISP) offer their own DNS services to their customers per default. This technically allows them to log the browsing history and to generate profiles on browsing habits etc.
+2. If an entry in this phone book is missing, you might not be able to reach the server you're looking for (unless you can get the address elsewhere or have a good memory for numbers).
+
+Some of the articles below discuss open and independent DNS services. For the sake of security and privacy, the used DNS service should at least be open and auditable; an important factor to consider for our everyday web surfing.
+
+Recent activities of \#dgplug members
+----------------------------------------------
+
+- [Kushal Das - Remembering John Perry Barlow](https://kushaldas.in/posts/remembering-john-perry-barlow.html): John Perry Barlow, founding member of the [Electronic Frontier Foundation][link:EFF] and the [Freedom of the Press Foundation][link:FotP], died on February 7th 2018. Kushal writes about the symposium that was organized ath the [Internet Archive][link:archive] two months later, and about the ideological legacy of JPB.
+- [SaptakS (noreply@blogger.com) - What's the preferred unit in CSS for responsive design?](https://saptak013.blogspot.com/2018/04/preferred-unit-in-css.html): Designing a responsive (AND attractive) UI in web apps can be challenging and, given the diversity of scaling units we have in CSS, also quite confusing. Saptak shares his experience on which units prove themselves in certain situations.
+- [Kushal Das - Using ZNC on Tor Onion Network for Freenode and OFTC](https://kushaldas.in/posts/using-znc-on-tor-onion-network-for-freenode-and-oftc.html): IRC is an commonly used medium for text communication around the globe. IRC is great, but has two major drawbacks: You have to be online to receive messages and it's not encrypted by default. Using ZNC on TOR Onion Network solves both issues in one go.
+- [SaptakS (noreply@blogger.com) - FOSSASIA 2018: Conference Report](https://saptak013.blogspot.com/2018/04/fossasia-2018-conference-report.html): FOSSASIA is a non-profit organization that aims for supporting social change with free software. Saptak attended the annual conference that took place from 22-25 March 2018 in Singapore, also giving a talk. 
+- [Mario Jason Braganza - On Capturing Value; my newest mental model](https://janusworx.com/on-capturing-value/): Hard work does not always pay. Do get the most out of the efforts we bring, is something to be learned to make a comfortable living, as Jason writes.
+
+
+Further reading
+-------------------
+
+- [kushaldas - https://www.jetbrains.com/research/python-developers-survey-2017/](https://www.jetbrains.com/research/python-developers-survey-2017/): Here are exciting results of the Python Developers Survey conducted by JetBrains. It gives insight into how Python is used and by whom, which Framework are the most pupular and many more things.
+- [kushaldas - https://motherboard.vice.com/en_us/article/zmg3ky/surveillance-memes-nsa-fbi-facebook](https://motherboard.vice.com/en_us/article/zmg3ky/surveillance-memes-nsa-fbi-facebook): Some nifty memes about mass surveillance that will stay in your head and come to your mind whenever you see the popular originals. 
+- [bhavin192 - https://blog.cloudflare.com/dns-resolver-1-1-1-1](https://blog.cloudflare.com/dns-resolver-1-1-1-1): Since 1st of April 2018, CloudFlare runs a new dns resolver that focusses on privacy and security, and to become the fastest dns resolver on this globe.
+- [jasonbraganza - https://arstechnica.com/information-technology/2018/04/how-to-keep-your-isps-nose-out-of-your-browser-history-with-encrypted-dns/](https://arstechnica.com/information-technology/2018/04/how-to-keep-your-isps-nose-out-of-your-browser-history-with-encrypted-dns/): The choise of dns resolver is not trivial when regarding privacy. Even encrypted dns resolver services can log histories. CloudFlare has promised to not log dns traffic, and although the code is not open source, CloudFlare at least approves audits by external companies.
+- [SaptakS - https://lawsofux.com/fittss-law.html](https://lawsofux.com/fittss-law.html): A nice design is not necessarily in line with a nice user experience. Fitts's law is a model to predict human interaction and can be applied to design more intuitive user interfaces.
+- [SaptakS - https://www.nngroup.com/articles/top-10-mistakes-web-design/](https://www.nngroup.com/articles/top-10-mistakes-web-design/): Only the fewest web developers drive the users nuts on purpose. Most are just not aware of the mistakes they do in their web design. This article lists "The ten most egregious offenses against users".
+- [jasonbraganza - https://stratechery.com/2018/the-end-of-windows/](https://stratechery.com/2018/the-end-of-windows/): The situation for personal computers has changed drastically since Microsoft Windows was the unchallenged market leader. Flops like Windows 8 and Windows Phone gave the company a hard time. This article is a review of decisions and consequences in Microsoft's strategy during the last years.
+- [jasonbraganza - http://sethgodin.typepad.com/seths_blog/2018/04/words-on-slides.html](http://sethgodin.typepad.com/seths_blog/2018/04/words-on-slides.html): A few simple but very powerful tips to make your slides and presentations less boring and easier to follow. The core statement: With text on slides, less is more.
+- [farhaanbukhsh - https://www.youtube.com/watch?v=wlR5gYd6um0](https://www.youtube.com/watch?v=wlR5gYd6um0): You will most probably not succeed in mastering the Vim language in 36 minutes. However, these 36 minutes are still well spent to learn about the possibilities and get deeper insights in Vim.
+
+
+Did we miss something?
+---------------------------
+
+Since this project is still in its infancy, we may have overlooked content that you would like to have included. We will work on constantly improving this letter and review external sources. If you think there is something we've missed, feel free to add your ideas for the [next issue][link:next_issue].
+
+
+[img:logo]: /assets/img/main-dgp.png
+[link:dgplug]: https://dgplug.org
+[link:planet]: http://planet.dgplug.org
+[link:students_planet]: http://students.planet.dgplug.org
+[link:next_issue]: https://github.com/dgplug/newsletter/issues/12
+[link:FotP]: https://freedom.press 
+[link:EFF]: https://www.eff.org
+[link:archive]: https://archive.org
