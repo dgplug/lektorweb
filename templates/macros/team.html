@@ -2,6 +2,9 @@
 <div class="team_member">
     <!-- I'm not good in designing such things ;\) -->
     <h3>Hi, I'm {{ team_member.name }}</h3>
+    {% if team_member.attachments.count() > 0 %}
+    <img alt="" src="{{ team_member.attachments.first().thumbnail(200)|url }}"/>
+    {% endif %}
     <p>
         {{ team_member.bio }}
     </p>
