@@ -1,0 +1,19 @@
+{% macro render_team_member(team_member) %}
+<div class="team_member">
+    <!-- I'm not good in designing such things ;\) -->
+    <h3>Hi, I'm {{ team_member.name }}</h3>
+    <p>
+        {{ team_member.bio }}
+    </p>
+    {% if team_member.github %}
+    <p>
+        Find me on <a href="{{ team_member.github }}">Github</a>
+    </p>
+    {% endif %}
+    {% if team_member.twitter %}
+    <p>
+        Visit me on <a href="{{ team_member.twitter }}">Twitter</a>
+    </p>
+    {% endif %}
+</div>
+{% endmacro %}

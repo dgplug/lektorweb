@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% from "macros/team.html" import render_team_member %}
+{% block title %}Team{% endblock %}
+{% block body %}
+
+{{ this.body }}
+
+<div class="row">
+    {% for team_member in this.pagination.items %}
+    <div class="col-xs-12 col-sm-4 col-md-3">
+        {{ render_team_member(team_member) }}
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
