@@ -3,11 +3,16 @@
 {% block title %}Team{% endblock %}
 {% block body %}
 
-{{ this.body }}
+<div class="team-heading text-center">
+    {{ this.heading }}
+    <hr class="colored"/>
+</div>
+
+<div>{{ this.body }}<br/></div>
 
 <div class="row">
     {% for team_member in this.pagination.items %}
-    <div class="col-xs-12 col-sm-4 col-md-3">
+    <div class="col-xs-12 col-sm-6 col-md-4 profile-cards">
         {{ render_team_member(team_member) }}
     </div>
     {% endfor %}

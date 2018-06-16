@@ -1,22 +1,19 @@
 {% macro render_team_member(team_member) %}
-<div class="team_member">
+<div class="team_member text-center">
     <!-- I'm not good in designing such things ;\) -->
-    <h3>Hi, I'm {{ team_member.name }}</h3>
     {% if team_member.attachments.count() > 0 %}
-    <img alt="" src="{{ team_member.attachments.first().thumbnail(200)|url }}"/>
+    <img class="team-member-avatar" alt="" src="{{ team_member.attachments.first().thumbnail(400)|url }}"/>
+    {% else %}
+    <img class="team-member-avatar" src="/assets/img/profile.jpg" />
     {% endif %}
-    <p>
-        {{ team_member.bio }}
-    </p>
-    {% if team_member.github %}
-    <p>
-        Find me on <a href="{{ team_member.github }}">Github</a>
-    </p>
-    {% endif %}
-    {% if team_member.twitter %}
-    <p>
-        Visit me on <a href="{{ team_member.twitter }}">Twitter</a>
-    </p>
-    {% endif %}
+    <h3>{{ team_member.name }}</h3>
+    <div class="social-links">
+        {% if team_member.github %}
+        <a href="{{ team_member.github }}"><i class="fa fa-2x fa-github"></i></a>
+        {% endif %}
+        {% if team_member.twitter %}
+        <a href="{{ team_member.twitter }}"><i class="fa fa-2x fa-twitter"></i></a>
+        {% endif %}
+    </div>
 </div>
 {% endmacro %}

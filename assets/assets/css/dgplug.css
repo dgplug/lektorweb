@@ -227,6 +227,33 @@ header .scroll-down .btn:hover {
     color: rgba(255,255,255,.5);
 }
 
+hr.colored {
+    height: 2px;
+    margin: 15px auto;
+    max-width: 100px;
+    border: 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-color: #ef4035;
+}
+
+img.team-member-avatar {
+    width: 60%;
+}
+
+.social-links a {
+    padding: 0 1rem;
+    color: black;
+}
+
+.profile-cards {
+    margin-top: 5rem;
+}
+
+.profile-cards h3 {
+    margin: 1rem;
+}
+
 @media(min-width:768px) {
     header {
         width: 100%;
@@ -251,6 +278,11 @@ header .scroll-down .btn:hover {
     header img {
         max-height: 300px;
         max-width: 300px;
+    }
+
+    hr.colored {
+        margin: 20px auto;
+        max-width: 200px;
     }
 }
 
