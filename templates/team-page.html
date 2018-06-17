@@ -11,7 +11,7 @@
 <div>{{ this.body }}<br/></div>
 
 <div class="row">
-    {% for team_member in this.pagination.items %}
+    {% for team_member in this.children %}
     <div class="col-xs-12 col-sm-6 col-md-4 profile-cards">
         {{ render_team_member(team_member) }}
     </div>

@@ -239,6 +239,7 @@ hr.colored {
 
 img.team-member-avatar {
     width: 60%;
+    border-radius: 50%;
 }
 
 .social-links a {
@@ -247,11 +248,15 @@ img.team-member-avatar {
 }
 
 .profile-cards {
-    margin-top: 5rem;
+    margin-bottom: 10rem;
 }
 
 .profile-cards h3 {
     margin: 1rem;
+}
+
+.profile-cards i.fa {
+    font-size: 2rem;
 }
 
 @media(min-width:768px) {

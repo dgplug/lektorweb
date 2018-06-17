@@ -9,10 +9,13 @@
     <h3>{{ team_member.name }}</h3>
     <div class="social-links">
         {% if team_member.github %}
-        <a href="{{ team_member.github }}"><i class="fa fa-2x fa-github"></i></a>
+        <a href="{{ team_member.github }}" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i></a>
         {% endif %}
         {% if team_member.twitter %}
-        <a href="{{ team_member.twitter }}"><i class="fa fa-2x fa-twitter"></i></a>
+        <a href="{{ team_member.twitter }}" target="_blank" rel="noreferrer noopener"><i class="fa fa-twitter"></i></a>
+        {% endif %}
+        {% if team_member.link %}
+        <a href="{{ team_member.link }}" target="_blank" rel="noreferrer noopener"><i class="fa fa-link"></i></a>
         {% endif %}
     </div>
 </div>
