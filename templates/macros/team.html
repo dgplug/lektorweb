@@ -1,0 +1,20 @@
+{% macro render_team_member(team_member) %}
+<div class="team_member text-center">
+    <!-- I'm not good in designing such things ;\) -->
+    {% if team_member.attachments.count() > 0 %}
+    <img class="team-member-avatar" alt="" src="{{ team_member.attachments.first().thumbnail(400)|url }}"/>
+    {% endif %}
+    <h3>{{ team_member.name }}</h3>
+    <div class="social-links">
+        {% if team_member.github %}
+        <a href="{{ team_member.github }}" target="_blank" rel="noreferrer noopener"><i class="fa fa-github"></i></a>
+        {% endif %}
+        {% if team_member.twitter %}
+        <a href="{{ team_member.twitter }}" target="_blank" rel="noreferrer noopener"><i class="fa fa-twitter"></i></a>
+        {% endif %}
+        {% if team_member.link %}
+        <a href="{{ team_member.link }}" target="_blank" rel="noreferrer noopener"><i class="fa fa-link"></i></a>
+        {% endif %}
+    </div>
+</div>
+{% endmacro %}

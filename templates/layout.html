@@ -73,7 +73,7 @@
                         <a href="http://dgplug.org#about">About</a>
                     </li>
                     <li>
-                        <a href="http://dgplug.org#team">Team</a>
+                        <a href="http://dgplug.org/team">Team</a>
                     </li>
                     <li>
                         <a href="http://dgplug.org#links">Links</a>
@@ -98,7 +98,9 @@
 <div class="container">
 {% block body %}{% endblock %}
 
+{% if this.path != '/team@1' %}
 <div class="comments">{{ render_disqus_comments() }}</div>
+{% endif %}
 </div>
 
     <footer class="footer" style="background-image: url('assets/img/bg-footer3.jpg')">
