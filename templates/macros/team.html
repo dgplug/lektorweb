@@ -3,8 +3,6 @@
     <!-- I'm not good in designing such things ;\) -->
     {% if team_member.attachments.count() > 0 %}
     <img class="team-member-avatar" alt="" src="{{ team_member.attachments.first().thumbnail(400)|url }}"/>
-    {% else %}
-    <img class="team-member-avatar" src="/assets/img/profile.jpg" />
     {% endif %}
     <h3>{{ team_member.name }}</h3>
     <div class="social-links">
